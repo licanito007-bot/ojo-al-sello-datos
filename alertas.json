@@ -1,0 +1,353 @@
+{
+ "_nota": "Alertas alimentarias oficiales en Chile (Minsal, Seremi de Salud; Sernac cuando refuerza la alerta), por marca. Solo hechos con fuente: fecha, producto, lote, motivo y medida. Una alerta es de un LOTE: no dice que el resto de los productos de la marca sea inseguro. El sitio del Minsal bloquea las consultas automáticas, así que se completa a mano desde sus comunicados y la prensa que los cita. 'marcas' son los nombres que se buscan en el texto que lee la cámara (normalizados: minúsculas, sin tildes); 'propia' = marca propia de un supermercado, que fabrican distintas empresas.",
+ "actualizado": "2026-11-08",
+ "marcas": {
+  "cuisine-co": {
+   "nombre": "Cuisine & Co",
+   "dueno": "Cencosud (marca propia de Jumbo y Santa Isabel)",
+   "propia": true,
+   "buscar": [
+    "cuisine & co",
+    "cuisine&co",
+    "cuisine co",
+    "cousine & co",
+    "cousine&co"
+   ]
+  },
+  "daily-fresh": {
+   "nombre": "Daily Fresh",
+   "buscar": [
+    "daily fresh"
+   ]
+  },
+  "lider": {
+   "nombre": "Líder",
+   "dueno": "Walmart Chile (marca propia)",
+   "propia": true,
+   "buscar": [
+    "lider"
+   ],
+   "_ojo": "no buscar «Walmart»: distribuye muchas marcas (Great Value, Acuenta…)"
+  },
+  "la-rotunda": {
+   "nombre": "La Rotunda",
+   "buscar": [
+    "la rotunda"
+   ]
+  },
+  "alula": {
+   "nombre": "Alula",
+   "dueno": "Sanulac Chile (grupo Lactalis)",
+   "buscar": [
+    "alula",
+    "sanulac"
+   ]
+  },
+  "antartic": {
+   "nombre": "Antartic",
+   "dueno": "Pesquera Trans Antartic Ltda.",
+   "buscar": [
+    "antartic",
+    "trans antartic"
+   ]
+  },
+  "south-wind": {
+   "nombre": "South Wind",
+   "buscar": [
+    "south wind"
+   ]
+  },
+  "aqua-austral": {
+   "nombre": "Aqua Austral",
+   "buscar": [
+    "aqua austral"
+   ]
+  },
+  "dona-marcelina": {
+   "nombre": "Doña Marcelina",
+   "buscar": [
+    "dona marcelina"
+   ]
+  },
+  "fresco-copec": {
+   "nombre": "Fresco (Pronto Copec)",
+   "dueno": "Arco Alimentos (Copec)",
+   "buscar": [
+    "arco alimentos",
+    "pronto copec"
+   ]
+  },
+  "gourmet": {
+   "nombre": "Gourmet",
+   "dueno": "Good Food S.A.",
+   "buscar": [
+    "good food s a",
+    "good food sa",
+    "marca gourmet"
+   ]
+  },
+  "matthei": {
+   "nombre": "Matthei",
+   "buscar": [
+    "matthei",
+    "mathei",
+    "matthel"
+   ]
+  }
+ },
+ "alertas": [
+  {
+   "id": "2026-09-matthei-queso",
+   "fecha": "2026-09-16",
+   "marca": "matthei",
+   "producto": "Queso mantecoso laminado 250 g",
+   "lote": "2262907 AM",
+   "vence": "2027-03-01",
+   "fabricante": "",
+   "motivo": "listeria",
+   "detalle": "La Seremi de Salud RM detectó Listeria monocytogenes en el programa de vigilancia de microbiología en alimentos; elaborado el 31-08-2026. Se inspecciona la planta.",
+   "medida": "Retiro del lote y prohibición de venta en todo el país.",
+   "autoridad": "Minsal / Seremi de Salud RM",
+   "fuentes": [
+    "https://www.minsal.cl/minsal-emite-alerta-alimentaria-por-listeria-en-queso-mantecoso-laminado-marca-matthei/",
+    "https://www.meganoticias.cl/nacional/531805-alerta-alimentaria-minsal-queso-mantecoso-matthei-listeria-16-09-2026.html"
+   ]
+  },
+  {
+   "id": "2026-09-lider-pasta-coctel",
+   "fecha": "2026-09-03",
+   "marca": "lider",
+   "producto": "Pasta cóctel de jamón 250 g",
+   "lote": null,
+   "vence": "2026-09-05",
+   "fabricante": "Productos Alimenticios CORBAC Ltda. (Región Metropolitana)",
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes.",
+   "medida": "Retiro de los puntos de venta y sumario sanitario.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.epicentrochile.com/2026/09/03/minsal-alerta-por-producto-lider-contaminado-con-listeria-conoce-el-lote-afectado/"
+   ]
+  },
+  {
+   "id": "2026-08-cuisine-mani",
+   "fecha": "2026-08-24",
+   "marca": "cuisine-co",
+   "producto": "Maní tostado sin sal, pote 300 g",
+   "lote": "103969",
+   "vence": "2026-09-30",
+   "fabricante": null,
+   "motivo": "micotoxina",
+   "detalle": "Aflatoxinas sobre el límite permitido (programa nacional de vigilancia de micotoxinas).",
+   "medida": "Retiro de la venta.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.publimetro.cl/noticias/2026/08/24/minsal-emite-alerta-alimentaria-por-mani-contaminado-con-aflatoxinas-revisa-marca-y-lote-afectado/",
+    "https://www.radioagricultura.cl/noticias/nacional/alerta-alimentaria-minsal-ordena-retirar-de-comercializacion-conocido-producto-de-mani_20260824/"
+   ]
+  },
+  {
+   "id": "2026-08-la-rotunda-queso",
+   "fecha": "2026-08-19",
+   "marca": "la-rotunda",
+   "producto": "Queso mantecoso laminado 300 g y 500 g",
+   "lote": "T3180726",
+   "vence": "2026-11-26 (500 g) y 2026-11-27 (300 g)",
+   "fabricante": "La Rotunda Ltda.",
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes en una muestra; la Seremi de Valparaíso inspeccionó la planta. El 28-08 la alerta se amplió al formato de 500 g del mismo lote.",
+   "medida": "Retiro del lote.",
+   "autoridad": "Minsal / Seremi de Salud de Valparaíso",
+   "fuentes": [
+    "https://www.latercera.com/servicios/noticia/minsal-emite-alerta-alimentaria-por-presencia-de-listeria-en-queso-mantecoso-laminado-la-rotunda/",
+    "https://www.24horas.cl/te-sirve/salud/minsal-emite-alerta-alimentaria-por-listeria-en-queso-mantecoso-marca",
+    "https://www.meganoticias.cl/nacional/530463-minsal-amplia-alerta-alimentaria-queso-mantecoso-la-rotunda-listeria-28-08-2026.html"
+   ]
+  },
+  {
+   "id": "2026-08-cuisine-pasas",
+   "fecha": "2026-08-06",
+   "marca": "cuisine-co",
+   "producto": "Pasas morenas",
+   "lote": null,
+   "vence": null,
+   "fabricante": "Agroindustrial Las Tres Erres SpA",
+   "motivo": "micotoxina",
+   "detalle": "Ocratoxina A sobre el límite permitido.",
+   "medida": "Retiro de la venta.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.epicentrochile.com/2026/08/06/riesgo-para-la-salud-renal-minsal-emite-alerta-alimentaria-y-pide-no-consumir-lote-de-pasas-por-presencia-de-toxina/"
+   ]
+  },
+  {
+   "id": "2026-02-antartic-choritos",
+   "fecha": "2026-02-06",
+   "marca": "antartic",
+   "producto": "Choritos en aceite, lata 190 g",
+   "lote": "L 23 12 25",
+   "vence": "2029-12",
+   "fabricante": "Pesquera Trans Antartic Ltda.",
+   "motivo": "botulismo",
+   "detalle": "Riesgo de contaminación con Clostridium botulinum (bacteria del botulismo).",
+   "medida": "Retiro preventivo; el Sernac pidió a la empresa informar sus medidas.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.emol.com/noticias/Nacional/2026/02/06/1190843/retiro-choritos-conserva-antartic-bacteria.html",
+    "https://www.latercera.com/nacional/noticia/minsal-ordena-retiro-preventivo-de-conservas-de-choritos-por-riesgo-de-contaminacion-con-botulismo/"
+   ]
+  },
+  {
+   "id": "2026-01-alula-leche",
+   "fecha": "2026-01-22",
+   "marca": "alula",
+   "producto": "Leche infantil (tarros de 200 g y 900 g)",
+   "lote": "8000003226, 8000003236 y otros",
+   "vence": "hasta 2027-03",
+   "fabricante": "Lactalis (Sanulac Chile)",
+   "motivo": "toxina",
+   "detalle": "Posible presencia de cereulida, toxina de la bacteria Bacillus cereus. Parte de un retiro preventivo de Lactalis en 18 países.",
+   "medida": "Retiro voluntario de lotes por la empresa.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.lanacion.cl/minsal-emite-alerta-alimentaria-por-leche-alula-empresa-anuncia-retiro-de-lotes/"
+   ]
+  },
+  {
+   "id": "2025-12-aqua-austral-trucha",
+   "fecha": "2025-12-23",
+   "marca": "aqua-austral",
+   "producto": "Trucha ahumada en frío slice 150 g",
+   "lote": "12277121225",
+   "vence": "2025-12-26",
+   "fabricante": "Aqua Austral Ltda.",
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes.",
+   "medida": "Retiro del lote.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.cnnchile.com/pais/minsal-activa-alertar-sanitaria-ordena-retiro-trucha-ahumada-aqua-austral-listeria_20251223/"
+   ]
+  },
+  {
+   "id": "2025-12-fresco-sandwich",
+   "fecha": "2025-12-04",
+   "marca": "fresco-copec",
+   "producto": "Sándwich ave pimentón",
+   "lote": "T1",
+   "vence": "2025-12-04",
+   "fabricante": "Arco Alimentos (Copec)",
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes en una muestra de un local de Chillán.",
+   "medida": "Retiro del lote; el Sernac reforzó el llamado a no consumirlo.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://chocale.cl/2025/12/alerta-por-sandwich-contaminado-con-listeria/"
+   ]
+  },
+  {
+   "id": "2025-07-south-wind-salmon",
+   "fecha": "2025-07-11",
+   "marca": "south-wind",
+   "producto": "Salmón ahumado en frío 150 g",
+   "lote": "1CM2501057b",
+   "vence": "2025-08-17",
+   "fabricante": null,
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes (muestra de la Región de O'Higgins).",
+   "medida": "Retiro del comercio.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.cnnchile.com/pais/minsal-emite-alerta-alimentaria-por-listeria-en-salmon-ahumado-y-ordena-su-retiro-del-mercado/"
+   ]
+  },
+  {
+   "id": "2025-07-dona-marcelina-pate",
+   "fecha": "2025-07-10",
+   "marca": "dona-marcelina",
+   "producto": "Paté de jamón",
+   "lote": "035120625",
+   "vence": "2025-07-27",
+   "fabricante": null,
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes (Seremi de Salud del Biobío).",
+   "medida": "Llamado a no consumir; el Sernac reforzó la alerta.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://eldesconcierto.cl/2025/07/11/sernac-hace-llamado-a-la-poblacion-a-no-consumir-pate-de-jamon-dona-marcelina-tras-alerta-de-minsal"
+   ]
+  },
+  {
+   "id": "2024-10-cuisine-daily-listeria",
+   "fecha": "2024-10-25",
+   "marca": "cuisine-co",
+   "producto": "Pasta untable ave pimentón 240 g (lote OC11), slice de trucha ahumada 150 g (2SA2410267A) y pasta untable club 240 g (OC10)",
+   "lote": "OC11, 2SA2410267A, OC10",
+   "vence": "2024-12-02",
+   "fabricante": null,
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes (Seremis Metropolitana y de Los Lagos). En la misma alerta: pasta ave mayo Daily Fresh.",
+   "medida": "Retiro de los lotes y sumarios sanitarios.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.minsal.cl/ministerio-de-salud-actualiza-informacion-sobre-alerta-alimentaria-por-presencia-de-listeria-en-alimentos/"
+   ]
+  },
+  {
+   "id": "2024-10-daily-fresh-pasta",
+   "fecha": "2024-10-25",
+   "marca": "daily-fresh",
+   "producto": "Pasta ave mayo premium cóctel 250 g",
+   "lote": "282 B 05",
+   "vence": "2024-11-08",
+   "fabricante": null,
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes.",
+   "medida": "Retiro del lote y sumario sanitario.",
+   "autoridad": "Minsal",
+   "fuentes": [
+    "https://www.minsal.cl/ministerio-de-salud-actualiza-informacion-sobre-alerta-alimentaria-por-presencia-de-listeria-en-alimentos/"
+   ]
+  },
+  {
+   "id": "2024-08-gourmet-merken",
+   "fecha": "2024-08-29",
+   "marca": "gourmet",
+   "producto": "Merkén, frasco 21 g y bolsa 100 g",
+   "lote": "319370 y 320574",
+   "vence": "2025-12-15",
+   "fabricante": "Good Food S.A.",
+   "motivo": "micotoxina",
+   "detalle": "Ocratoxina A (toxina de hongos). No causa intoxicación inmediata; el riesgo es por consumo prolongado.",
+   "medida": "Retiro nacional de los dos lotes.",
+   "autoridad": "Minsal",
+   "empresa_dice": "La empresa hizo análisis en laboratorios independientes, no encontró la toxina y aun así retiró los lotes.",
+   "fuentes": [
+    "https://www.minsal.cl/autoridad-sanitaria-instruye-retiro-de-producto-merken-marca-gourmet-por-presencia-de-ocratoxina-a/",
+    "https://www.24horas.cl/actualidad/nacional/merken-contaminado-gourmet-descarta-presencia-de-toxinas-pero-accede-retiro-lotes"
+   ]
+  },
+  {
+   "id": "2023-06-la-rotunda-queso",
+   "fecha": "2023-06-29",
+   "marca": "la-rotunda",
+   "producto": "Queso mantecoso laminado 300 g",
+   "lote": "T43000323",
+   "vence": "2023-08-20",
+   "fabricante": "La Rotunda Ltda.",
+   "motivo": "listeria",
+   "detalle": "Se detectó Listeria monocytogenes en una fiscalización de la Seremi de Valparaíso.",
+   "medida": "Prohibición de funcionamiento de la planta y retiro de sus productos (art. 178 del Código Sanitario).",
+   "autoridad": "Seremi de Salud de Valparaíso",
+   "fuentes": [
+    "https://cooperativa.cl/noticias/pais/salud/alertas-sanitarias/minsal-emitio-alerta-ante-contaminacion-por-listeria-en-marca-de-queso/2023-06-29/191141.html"
+   ]
+  }
+ ],
+ "motivos": {
+  "listeria": "Listeria: bacteria que puede causar fiebre y diarrea, y es grave en embarazadas, adultos mayores y personas con defensas bajas.",
+  "botulismo": "Botulismo: toxina de una bacteria que afecta los nervios; es poco común y muy grave.",
+  "micotoxina": "Toxina de hongos: no enferma de inmediato; el riesgo es por comerla seguido durante mucho tiempo.",
+  "toxina": "Toxina de bacteria: puede causar vómitos al poco rato de consumir el producto."
+ }
+}
